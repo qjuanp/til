@@ -1,0 +1,1410 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0f316571-5963-4915-89ad-608da8c9f932",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-12-05T14:47:59Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.62.3"
+      }
+    ],
+    "component": {
+      "bom-ref": "48fe1e27d6881540",
+      "type": "container",
+      "name": "johscheuer/todo-app-web",
+      "version": "sha256:d922fdacc81485021fdecb1f0b221471e4277a7ed6dc42cc9f9d0f91411bacfd"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:deb/debian/base-files@9.9+deb9u9?arch=amd64\u0026distro=debian-9\u0026package-id=2d7efeebcbea7f90",
+      "type": "library",
+      "publisher": "Santiago Vila \u003csanvila@debian.org\u003e",
+      "name": "base-files",
+      "version": "9.9+deb9u9",
+      "cpe": "cpe:2.3:a:base-files:base-files:9.9\\+deb9u9:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/base-files@9.9+deb9u9?arch=amd64\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:base-files:base_files:9.9\\+deb9u9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:base_files:base-files:9.9\\+deb9u9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:base_files:base_files:9.9\\+deb9u9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:base:base-files:9.9\\+deb9u9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:base:base_files:9.9\\+deb9u9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/base-files/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/base"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "333"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=670d5a0e18ca4790",
+      "type": "library",
+      "name": "github.com/beorn7/perks",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.0?package-id=a6449614df8f7253",
+      "type": "library",
+      "name": "github.com/cespare/xxhash/v2",
+      "version": "v2.1.0",
+      "cpe": "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:yTUvW7Vhb89inJ+8irsUqiWjh8iT6sQPZiQzI6ReGkA="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gin-contrib/sse@v0.1.0?package-id=ec596e070fb885b7",
+      "type": "library",
+      "name": "github.com/gin-contrib/sse",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:gin-contrib:sse:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/gin-contrib/sse@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin_contrib:sse:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin:sse:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gin-gonic/contrib@v0.0.0-20190923054218-35076c1b2bea?package-id=ef051fee0b0400c4",
+      "type": "library",
+      "name": "github.com/gin-gonic/contrib",
+      "version": "v0.0.0-20190923054218-35076c1b2bea",
+      "cpe": "cpe:2.3:a:gin-gonic:contrib:v0.0.0-20190923054218-35076c1b2bea:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/gin-gonic/contrib@v0.0.0-20190923054218-35076c1b2bea",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin_gonic:contrib:v0.0.0-20190923054218-35076c1b2bea:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin:contrib:v0.0.0-20190923054218-35076c1b2bea:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:tPQfr1S0mubDv/jvdbS1xbKOJzDgvIHi7db/MYr4EKg="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/gin-gonic/gin@v1.4.0?package-id=625b4d36f4860b4b",
+      "type": "library",
+      "name": "github.com/gin-gonic/gin",
+      "version": "v1.4.0",
+      "cpe": "cpe:2.3:a:gin-gonic:gin:v1.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/gin-gonic/gin@v1.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin_gonic:gin:v1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gin:gin:v1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:3tMoCCfM7ppqsR0ptz/wi1impNpT7/9wQtMZ8lr1mCQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/golang/protobuf@v1.3.2?package-id=a24edbfe642fc93a",
+      "type": "library",
+      "name": "github.com/golang/protobuf",
+      "version": "v1.3.2",
+      "cpe": "cpe:2.3:a:golang:protobuf:v1.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/golang/protobuf@v1.3.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/johscheuer/todo-app-web@(devel)?package-id=1f7927f1449e23d2",
+      "type": "library",
+      "name": "github.com/johscheuer/todo-app-web",
+      "version": "(devel)",
+      "cpe": "cpe:2.3:a:johscheuer:todo-app-web:\\(devel\\):*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/johscheuer/todo-app-web@(devel)",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:johscheuer:todo_app_web:\\(devel\\):*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mattn/go-isatty@v0.0.10?package-id=edef1272b416c21f",
+      "type": "library",
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.10",
+      "cpe": "cpe:2.3:a:mattn:go-isatty:v0.0.10:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mattn:go_isatty:v0.0.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:qxFzApOv4WsAL965uUPIsXzAKCZxN2p9UqdhFS4ZW10="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=d10d9f3c9093af75",
+      "type": "library",
+      "name": "github.com/matttproud/golang_protobuf_extensions",
+      "version": "v1.0.1",
+      "cpe": "cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/mcuadros/go-gin-prometheus@v0.1.0?package-id=367f80c8a16bc00",
+      "type": "library",
+      "name": "github.com/mcuadros/go-gin-prometheus",
+      "version": "v0.1.0",
+      "cpe": "cpe:2.3:a:mcuadros:go-gin-prometheus:v0.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/mcuadros/go-gin-prometheus@v0.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mcuadros:go_gin_prometheus:v0.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:JNoWKvw/u9tyRJ8BL9ZJvfiXU8IHUw8gCvcf/5L8tnI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/client_golang@v1.2.1?package-id=83570005afef6cbb",
+      "type": "library",
+      "name": "github.com/prometheus/client_golang",
+      "version": "v1.2.1",
+      "cpe": "cpe:2.3:a:prometheus:client-golang:v1.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_golang@v1.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prometheus:client_golang:v1.2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:JnMpQc6ppsNgw9QPAGF6Dod479itz7lvlsMzzNayLOI="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/client_model@v0.0.0-20190812154241-14fe0d1b01d4?package-id=c42bd97773db07c5",
+      "type": "library",
+      "name": "github.com/prometheus/client_model",
+      "version": "v0.0.0-20190812154241-14fe0d1b01d4",
+      "cpe": "cpe:2.3:a:prometheus:client-model:v0.0.0-20190812154241-14fe0d1b01d4:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/client_model@v0.0.0-20190812154241-14fe0d1b01d4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:prometheus:client_model:v0.0.0-20190812154241-14fe0d1b01d4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:gQz4mCbXsO+nc9n1hCxHcGA3Zx3Eo+UHZoInFGUIXNM="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/common@v0.7.0?package-id=7962593a7c52f2c7",
+      "type": "library",
+      "name": "github.com/prometheus/common",
+      "version": "v0.7.0",
+      "cpe": "cpe:2.3:a:prometheus:common:v0.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/common@v0.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:L+1lyG48J1zAQXA3RBX/nG/B3gjlHq0zTt2tlbJLyCY="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/prometheus/procfs@v0.0.5?package-id=9e99e881512a0ac1",
+      "type": "library",
+      "name": "github.com/prometheus/procfs",
+      "version": "v0.0.5",
+      "cpe": "cpe:2.3:a:prometheus:procfs:v0.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/prometheus/procfs@v0.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:3+auTFlqw+ZaQYJARz6ArODtkaIwtvBTx3N2NehQlL8="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/sirupsen/logrus@v1.4.2?package-id=eeada198e705beff",
+      "type": "library",
+      "name": "github.com/sirupsen/logrus",
+      "version": "v1.4.2",
+      "cpe": "cpe:2.3:a:sirupsen:logrus:v1.4.2:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/sirupsen/logrus@v1.4.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:SPIRibHv4MatM3XXNO2BJeFLZwZ2LvZgfQ5+UNI2im4="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/github.com/ugorji/go/codec@v1.1.7?package-id=458f64356a7c036c",
+      "type": "library",
+      "name": "github.com/ugorji/go/codec",
+      "version": "v1.1.7",
+      "cpe": "cpe:2.3:a:ugorji:go\\/codec:v1.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/github.com/ugorji/go/codec@v1.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:2SvQaVZ1ouYrrKKwoSk2pzd4A9evlKJb9oTL+OaLUSs="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/golang.org/x/sys@v0.0.0-20191018095205-727590c5006e?package-id=28dd85d3143a6262",
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20191018095205-727590c5006e",
+      "cpe": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20191018095205-727590c5006e:*:*:*:*:*:*:*",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20191018095205-727590c5006e",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:ZtoklVMHQy6BFRHkbG6JzK+S6rX82//Yeok1vMlizfQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/go-playground/validator.v8@v8.18.2?package-id=e6a0a312a4da05a7",
+      "type": "library",
+      "name": "gopkg.in/go-playground/validator.v8",
+      "version": "v8.18.2",
+      "purl": "pkg:golang/gopkg.in/go-playground/validator.v8@v8.18.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:lFB4DoMU6B626w8ny76MV7VX6W2VHct2GVOI3xgiMrQ="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/redis.v5@v5.2.9?package-id=e94d89c1d0233633",
+      "type": "library",
+      "name": "gopkg.in/redis.v5",
+      "version": "v5.2.9",
+      "purl": "pkg:golang/gopkg.in/redis.v5@v5.2.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:MNZYOLPomQzZMfpN3ZtD1uyJ2IDonTTlxYiV/pEApiw="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/gopkg.in/yaml.v2@v2.2.4?package-id=8233a881af91ed1b",
+      "type": "library",
+      "name": "gopkg.in/yaml.v2",
+      "version": "v2.2.4",
+      "purl": "pkg:golang/gopkg.in/yaml.v2@v2.2.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-binary-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "GolangBinMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:9c40ff3956bdd356bc9d3cdd67e1ec559c23987b6fa5b73f84642e2846bf8ce3"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/app/todo-app"
+        },
+        {
+          "name": "syft:metadata:architecture",
+          "value": "x86_64"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.13.3"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:/eiJrUcujPVeJ3xlSWaiNi3uSVmDGBK1pDHUHAnao1I="
+        },
+        {
+          "name": "syft:metadata:mainModule",
+          "value": "github.com/johscheuer/todo-app-web"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libc6@2.24-11+deb9u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-9\u0026package-id=369bc6e674eeef97",
+      "type": "library",
+      "publisher": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "name": "libc6",
+      "version": "2.24-11+deb9u4",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:libc6:libc6:2.24-11\\+deb9u4:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libc6@2.24-11+deb9u4?arch=amd64\u0026upstream=glibc\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/libc6/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/libc6"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "10686"
+        },
+        {
+          "name": "syft:metadata:source",
+          "value": "glibc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/libssl1.1@1.1.0k-1~deb9u1?arch=amd64\u0026upstream=openssl\u0026distro=debian-9\u0026package-id=ad4655e3fecc8fb3",
+      "type": "library",
+      "publisher": "Debian OpenSSL Team \u003cpkg-openssl-devel@lists.alioth.debian.org\u003e",
+      "name": "libssl1.1",
+      "version": "1.1.0k-1~deb9u1",
+      "cpe": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.0k-1\\~deb9u1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/libssl1.1@1.1.0k-1~deb9u1?arch=amd64\u0026upstream=openssl\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/libssl1.1/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/libssl1"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "3556"
+        },
+        {
+          "name": "syft:metadata:source",
+          "value": "openssl"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/netbase@5.4?arch=all\u0026distro=debian-9\u0026package-id=429157806067bf04",
+      "type": "library",
+      "publisher": "Marco d'Itri \u003cmd@linux.it\u003e",
+      "name": "netbase",
+      "version": "5.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:netbase:netbase:5.4:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/netbase@5.4?arch=all\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/netbase/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/netbase"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "44"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/openssl@1.1.0k-1~deb9u1?arch=amd64\u0026distro=debian-9\u0026package-id=55438b9a1b5d5b94",
+      "type": "library",
+      "publisher": "Debian OpenSSL Team \u003cpkg-openssl-devel@lists.alioth.debian.org\u003e",
+      "name": "openssl",
+      "version": "1.1.0k-1~deb9u1",
+      "cpe": "cpe:2.3:a:openssl:openssl:1.1.0k-1\\~deb9u1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/openssl@1.1.0k-1~deb9u1?arch=amd64\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/openssl/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:dffd9992ca398466a663c87c92cfea2a2db0ae0cf33fcb99da60eec52addbfc5"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/openssl"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "1314"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:deb/debian/tzdata@2019a-0+deb9u1?arch=all\u0026distro=debian-9\u0026package-id=adaa0cfde73d8ecb",
+      "type": "library",
+      "publisher": "GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "name": "tzdata",
+      "version": "2019a-0+deb9u1",
+      "cpe": "cpe:2.3:a:tzdata:tzdata:2019a-0\\+deb9u1:*:*:*:*:*:*:*",
+      "purl": "pkg:deb/debian/tzdata@2019a-0+deb9u1?arch=all\u0026distro=debian-9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dpkgdb-cataloger"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "DpkgMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "deb"
+        },
+        {
+          "name": "syft:location:0:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/usr/share/doc/tzdata/copyright"
+        },
+        {
+          "name": "syft:location:1:layerID",
+          "value": "sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+        },
+        {
+          "name": "syft:location:1:path",
+          "value": "/var/lib/dpkg/status.d/tzdata"
+        },
+        {
+          "name": "syft:metadata:installedSize",
+          "value": "3028"
+        }
+      ]
+    },
+    {
+      "type": "operating-system",
+      "name": "debian",
+      "version": "9",
+      "description": "Distroless",
+      "swid": {
+        "tagId": "debian",
+        "name": "debian",
+        "version": "9"
+      },
+      "externalReferences": [
+        {
+          "url": "https://github.com/GoogleContainerTools/distroless/issues/new",
+          "type": "issue-tracker"
+        },
+        {
+          "url": "https://github.com/GoogleContainerTools/distroless",
+          "type": "website"
+        },
+        {
+          "url": "https://github.com/GoogleContainerTools/distroless/blob/master/README.md",
+          "comment": "support",
+          "type": "other"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:distro:id",
+          "value": "debian"
+        },
+        {
+          "name": "syft:distro:prettyName",
+          "value": "Distroless"
+        },
+        {
+          "name": "syft:distro:versionID",
+          "value": "9"
+        }
+      ]
+    }
+  ]
+}
